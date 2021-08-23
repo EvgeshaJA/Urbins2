@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urbins</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="libs/bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="css/datepicker.min.css">
+    <link rel="stylesheet" href="libs/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+
+    <header class="header" id="header">
+        <div class="header__inner">
+
+            <a class="header__logo center" href="index.html">
+                <img class="header__logo-img" src="img/logo.png" alt="logo">
+            </a>
+
+            <div class="header__navigation">
+                <div class="header__navigation-mobile">
+
+                    <a class="header__navigation-number" href="tel:+3457008800">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="29px" height="30px">
+                        <path fill-rule="evenodd"  fill="rgb(34, 34, 34)"
+                        d="M27.292,14.481 C26.729,14.481 26.272,14.005 26.272,13.417 C26.272,10.402 25.145,7.565 23.099,5.433 C21.053,3.300 18.332,2.126 15.438,2.126 C14.875,2.126 14.418,1.649 14.418,1.062 C14.418,0.475 14.875,-0.001 15.438,-0.001 C18.877,-0.001 22.110,1.395 24.542,3.929 C26.973,6.463 28.312,9.833 28.312,13.418 C28.312,14.005 27.856,14.481 27.292,14.481 ZM20.345,13.418 C20.345,10.598 18.144,8.303 15.438,8.303 C14.875,8.303 14.418,7.827 14.418,7.240 C14.418,6.653 14.875,6.176 15.438,6.176 C15.438,6.176 15.438,6.176 15.438,6.176 C19.269,6.177 22.385,9.425 22.386,13.417 C22.386,14.005 21.929,14.481 21.366,14.481 C20.802,14.481 20.345,14.005 20.345,13.418 ZM9.407,14.334 C8.942,14.665 8.307,14.541 7.989,14.056 C7.671,13.572 7.791,12.909 8.256,12.579 C8.912,12.111 9.016,11.899 9.001,11.601 C8.898,10.692 6.350,7.068 5.551,6.703 C5.318,6.613 5.089,6.616 4.808,6.715 C3.725,7.095 2.964,7.724 2.607,8.536 C2.268,9.307 2.299,10.252 2.696,11.269 C4.178,15.060 6.246,18.371 8.842,21.113 C8.843,21.114 8.844,21.115 8.845,21.117 C11.478,23.828 14.660,25.987 18.302,27.534 C19.277,27.948 20.184,27.980 20.924,27.626 C21.702,27.255 22.307,26.461 22.672,25.332 C22.765,25.040 22.769,24.800 22.681,24.556 C22.333,23.725 18.856,21.070 17.973,20.961 C17.697,20.948 17.494,21.055 17.045,21.739 C16.727,22.225 16.092,22.348 15.627,22.016 C15.162,21.685 15.043,21.024 15.361,20.539 C15.741,19.960 16.533,18.755 18.088,18.838 C19.720,18.931 24.036,22.236 24.595,23.818 C24.844,24.517 24.848,25.256 24.605,26.009 C24.056,27.709 23.077,28.937 21.774,29.560 C21.161,29.853 20.500,29.999 19.810,29.999 C19.077,29.999 18.311,29.833 17.533,29.504 C13.646,27.853 10.245,25.544 7.423,22.641 C7.416,22.634 7.409,22.627 7.402,22.620 C4.611,19.676 2.392,16.127 0.806,12.072 C0.192,10.496 0.173,8.967 0.753,7.650 C1.350,6.292 2.528,5.271 4.158,4.698 C4.883,4.445 5.591,4.451 6.265,4.712 C7.780,5.293 10.950,9.791 11.039,11.489 C11.119,13.115 9.963,13.938 9.407,14.334 Z"/>
+                        </svg>
+                        <div class="header__navigation-nmb"> +345 700 8800</div>
+                    </a>
+                </div>
+
+                <div class="header__navigation-lang">
+                    <a class="header__navigation-langling" href="#">EN</a>
+                    <a class="header__navigation-langling" href="#">RU</a>
+                </div>
+
+                <button class="header__navigation-button">
+                    <img class="header__navigation-img" src="img/menu.png" alt="icon">
+                </button>
+            </div>
+        </div>
+
+        <div class="rightside-menu">
+
+            <button class="rightside-menu__close">
+                X
+            </button>
+
+            <div class="rightside-menu__content">
+
+                <nav class="rightside-menu__navigation">
+                    <a href="#latest-cars" class="rightside-menu__navigation-link">Latest Cars</a>
+                    <a href="#offers" class="rightside-menu__navigation-link">Our Offers</a>
+                    <a href="#contacts" class="rightside-menu__navigation-link">Contacts</a>
+                    <a href="#review" class="rightside-menu__navigation-link">Reviews</a>
+                    <a href="blog-sidebar.html" class="rightside-menu__navigation-link">Blog</a>
+                </nav>
+
+                <div class="rightside-menu__image">
+                    <img class="rightside-menu__img" src="img/car.png" alt="img">
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <a class="arrow_up center" href="#header"><i class="fas fa-arrow-up"></i></a>
+
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h2 class="hero__title">Latest News Blog</h2>
+                    <p class="hero__description">Incididunt ut laboret dolore magna aliqua ut enim ad minim veniam sed quis<br>
+                        nostrud ullamco laboris nisi aliquip ex loea Lorem ipsum.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-content">
+            <div class="container">
+                <div class="main-content__inner row">
+                    <aside class="blog-aside col-md-4 col-xl-3 col-12">
+                        <div class="blog-aside__search">
+                            <input class="blog-aside__search-input" type="search" placeholder="Search blog ...">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+                                <image id="icon" width="17" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABCUlEQVQ4jZ2ToXLCQBCGv5SpiKuvgTeoiWbyBKFvUB6BJ7jJE2ArY6saFIMCdAwSVFHouBgEszN7nUtyxwR+lbnd+7L7716EozjJ34AvYArIdw3sgaKpTE1AI3scJ7lcXuvFH2ADnBT4/fqenq6X3dGHiRzAEkibyhy6SXGSfwBbYN5UpuxBtIW/EMADmnRbe1EPynsAkcalilk3JpAMWN0DOFppfg+CmjlEtU7NC+kFApK8sw/iLTGgTPemBynELHU/KI3P1Nw2RMe1kPGFQM54vZsbOYl24Upt0ZqYaQU5YOSHTWUKL4QBb8epqAVqQYZIQb/Ap13QhyGOR/+gpyAdUPosw4LGADdHG2Uz5GE35gAAAABJRU5ErkJggg=="/>
+                            </svg>
+                        </div>
+                        <div class="blog-aside__category">
+                            <h3 class="title-line">Categories</h3>
+                            <ul class="blog-aside__category-list">
+                                <li class="blog-aside__category-item">
+                                    <a class="blog-aside__category-link" href="#">Rent a Scooter</a>
+                                </li>
+                                <li class="blog-aside__category-item">
+                                    <a class="blog-aside__category-link" href="#">Travelling through city</a>
+                                </li>
+                                <li class="blog-aside__category-item">
+                                    <a class="blog-aside__category-link" href="#">Electric Bikes</a>
+                                </li>
+                                <li class="blog-aside__category-item">
+                                    <a class="blog-aside__category-link" href="#">City Sightseeing</a>
+                                </li>
+                                <li class="blog-aside__category-item">
+                                    <a class="blog-aside__category-link" href="#">Free Helmets</a>
+                                </li>
+                                <li class="blog-aside__category-item">
+                                    <a class="blog-aside__category-link" href="#">Bikes Rental Services</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blog-aside__posts">
+                            <h3 class="title-line">Recent Posts</h3>
+                            <div class="blog-aside__posts-cards">
+                                <div class="blog-aside__posts-card">
+                                    <div class="blog-aside__posts-image">
+                                        <img class="blog-aside__posts-img" src="img/blog-aside/post-01.png" alt="image">
+                                    </div>
+                                    <div class="blog-aside__posts-content">
+                                        <h4 class="blog-aside__posts-cardtitle">We Offer Guided Tours For City Sightseeing</h4>
+                                        <p class="blog-aside__posts-date">October 8, 2019</p>
+                                    </div>
+                                </div>
+                                <div class="blog-aside__posts-card">
+                                    <div class="blog-aside__posts-image">
+                                        <img class="blog-aside__posts-img" src="img/blog-aside/post-02.png" alt="image">
+                                    </div>
+                                    <div class="blog-aside__posts-content">
+                                        <h4 class="blog-aside__posts-cardtitle">Car Rentals & Hire Is Now Very Easy</h4>
+                                        <p class="blog-aside__posts-date">October 8, 2019</p>
+                                    </div>
+                                </div>
+                                <div class="blog-aside__posts-card">
+                                    <div class="blog-aside__posts-image">
+                                        <img class="blog-aside__posts-img" src="img/blog-aside/post-03.png" alt="image">
+                                    </div>
+                                    <div class="blog-aside__posts-content">
+                                        <h4 class="blog-aside__posts-cardtitle">All New Ways; Boasts Of Realiability & Stability</h4>
+                                        <p class="blog-aside__posts-date">October 8, 2019</p>
+                                    </div>
+                                </div>
+                                <div class="blog-aside__posts-card">
+                                    <div class="blog-aside__posts-image">
+                                        <img class="blog-aside__posts-img" src="img/blog-aside/post-04.png" alt="image">
+                                    </div>
+                                    <div class="blog-aside__posts-content">
+                                        <h4 class="blog-aside__posts-cardtitle">Quick, Convenient And Easy For Travelling</h4>
+                                        <p class="blog-aside__posts-date">October 8, 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-aside__tags">
+                            <h3 class="title-line">Tags</h3>
+                            <ul class="blog-aside__tags-list">
+                                <li class="blog-aside__tags-item">
+                                    <button class="blog-aside__tags-btn center">Bikes</button>
+                                </li>
+                                <li class="blog-aside__tags-item">
+                                    <button class="blog-aside__tags-btn center">Car Hire</button>
+                                </li>
+                                <li class="blog-aside__tags-item">
+                                    <button class="blog-aside__tags-btn center">Rental</button>
+                                </li>
+                                <li class="blog-aside__tags-item">
+                                    <button class="blog-aside__tags-btn center">Travel</button>
+                                </li>
+                                <li class="blog-aside__tags-item">
+                                    <button class="blog-aside__tags-btn center">Sightseeing</button>
+                                </li>
+                                <li class="blog-aside__tags-item">
+                                    <button class="blog-aside__tags-btn center">Vehicles</button>
+                                </li>
+                                <li class="blog-aside__tags-item">
+                                    <button class="blog-aside__tags-btn center">Download App</button>
+                                </li>
+                                <li class="blog-aside__tags-item">
+                                    <button class="blog-aside__tags-btn center">Business</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blog-aside__contacts">
+                            <div class="blog-aside__inner">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="47px" height="50px">
+                               <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                d="M44.666,24.135 C43.739,24.135 42.988,23.342 42.988,22.363 C42.988,17.336 41.135,12.609 37.769,9.055 C34.403,5.500 29.929,3.543 25.169,3.543 C24.243,3.543 23.491,2.750 23.491,1.771 C23.491,0.793 24.242,-0.001 25.169,-0.001 C30.825,-0.001 36.142,2.325 40.142,6.548 C44.141,10.772 46.344,16.389 46.343,22.363 C46.343,23.342 45.592,24.135 44.666,24.135 ZM33.240,22.363 C33.240,17.664 29.619,13.840 25.169,13.839 C24.242,13.839 23.491,13.045 23.491,12.067 C23.492,11.088 24.243,10.295 25.169,10.295 C25.169,10.295 25.169,10.295 25.169,10.295 C31.469,10.296 36.595,15.710 36.596,22.363 C36.596,23.342 35.845,24.135 34.918,24.135 C33.991,24.135 33.240,23.342 33.240,22.363 ZM15.250,23.891 C14.484,24.443 13.441,24.235 12.918,23.427 C12.395,22.619 12.592,21.516 13.357,20.965 C14.436,20.186 14.607,19.834 14.583,19.336 C14.413,17.820 10.223,11.780 8.908,11.173 C8.525,11.022 8.148,11.027 7.686,11.191 C5.906,11.825 4.653,12.874 4.066,14.227 C3.509,15.511 3.559,17.087 4.212,18.783 C6.650,25.100 10.051,30.620 14.320,35.189 C14.322,35.191 14.324,35.193 14.325,35.195 C18.656,39.714 23.889,43.313 29.879,45.891 C31.484,46.581 32.975,46.634 34.192,46.045 C35.472,45.425 36.466,44.102 37.066,42.220 C37.220,41.734 37.226,41.334 37.082,40.927 C36.509,39.543 30.791,35.117 29.338,34.936 C28.885,34.913 28.550,35.093 27.812,36.233 C27.289,37.041 26.245,37.247 25.480,36.695 C24.715,36.142 24.519,35.040 25.043,34.232 C25.667,33.267 26.970,31.258 29.528,31.398 C32.212,31.553 39.310,37.060 40.230,39.697 C40.639,40.863 40.646,42.092 40.247,43.349 C39.343,46.183 37.733,48.229 35.590,49.267 C34.582,49.755 33.495,49.998 32.360,49.998 C31.155,49.998 29.894,49.724 28.614,49.173 C22.222,46.422 16.628,42.574 11.986,37.736 C11.975,37.724 11.963,37.712 11.952,37.701 C7.363,32.794 3.713,26.879 1.104,20.120 C0.093,17.493 0.063,14.946 1.016,12.750 C1.999,10.487 3.936,8.786 6.617,7.832 C7.809,7.410 8.975,7.417 10.083,7.854 C12.574,8.821 17.788,16.318 17.933,19.149 C18.065,21.859 16.164,23.231 15.250,23.891 Z"/>
+                               </svg>
+                                <p class="blog-aside__call">Call us to rent today!</p>
+                                <a class="blog-aside__number" href="tel:+13457008800">+1 345 700 8800</a>
+                                <p class="blog-aside__app">or Download Our App</p>
+                                <div class="blog-aside__icons">
+                                    <svg class="blog-aside__icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="31px" height="36px">
+                                   <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                    d="M23.025,8.032 C27.246,8.032 29.944,12.067 29.944,12.067 C29.944,12.067 25.827,14.275 25.827,19.071 C25.827,24.763 30.999,26.418 30.999,26.418 C30.999,26.418 26.917,35.993 22.333,35.993 C19.755,35.993 19.582,34.528 16.157,34.528 C13.181,34.528 12.178,35.993 9.912,35.993 C5.587,35.993 -0.001,26.662 -0.001,19.071 C-0.001,11.189 5.656,8.032 9.203,8.032 C12.316,8.032 13.614,9.843 16.122,9.843 C18.233,9.843 19.893,8.032 23.025,8.032 ZM22.298,-0.006 C22.921,3.858 19.374,8.635 15.136,8.482 C14.513,3.564 19.080,0.252 22.298,-0.006 Z"/>
+                                   </svg>
+                                   <svg class="blog-aside__icon"
+                                   xmlns="http://www.w3.org/2000/svg"
+                                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                                   width="31px" height="36px">
+                                  <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                   d="M23.179,22.566 L18.627,17.994 L23.180,13.422 L30.999,17.994 L23.179,22.566 ZM0.837,0.116 L0.837,-0.006 L15.499,8.565 L22.342,12.566 L17.789,17.136 L0.837,0.116 ZM-0.000,35.013 L-0.000,17.994 L-0.000,0.974 L16.951,17.994 L-0.000,35.013 ZM22.342,23.422 L15.499,27.421 L0.837,35.994 L0.837,35.870 L17.789,18.850 L22.342,23.422 Z"/>
+                                  </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <div class="main-content__cards col-md-8 col-12">
+                        <div class="main-content__card">
+                            <div class="main-content__card-image">
+                                <img class="main-content__card-img" src="img/blog-aside/01.png" alt="image">
+                            </div>
+                            <div class="main-content__card-header">
+                                <p class="main-content__card-headertext"><i class="fa fa-user" aria-hidden="true"></i> Stephen Moya</p>
+                                <p class="main-content__card-headertext"><i class="far fa-calendar-alt"></i> Sep 25, 2019</p>
+                                <p class="main-content__card-headertext"><i class="fa fa-folder-open" aria-hidden="true"></i> Car Hire</p>
+                            </div>
+                            <div class="main-content__card-content">
+                                <h3 class="main-content__card-title">Making car rentals easy for customers</h3>
+                                <p class="main-content__card-text">Incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud ulla
+                                    laboris nisialiquip ex loea Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor incididunt labore dolore magna aliqua. 
+                                    
+                                    </p>
+                                <a class="main-content__card-link center" href="blog-grid.html">read more</a>
+                            </div>
+                        </div>
+                        <div class="main-content__card">
+                            <div class="main-content__card-image">
+                                <img class="main-content__card-img" src="img/blog-aside/02.png" alt="image">
+                            </div>
+                            <div class="main-content__card-header">
+                                <p class="main-content__card-headertext"><i class="fa fa-user" aria-hidden="true"></i> Stephen Moya</p>
+                                <p class="main-content__card-headertext"><i class="far fa-calendar-alt"></i> Sep 25, 2019</p>
+                                <p class="main-content__card-headertext"><i class="fa fa-folder-open" aria-hidden="true"></i> Car Hire</p>
+                            </div>
+                            <div class="main-content__card-content">
+                                <h3 class="main-content__card-title">Quick hire & no-extra charges</h3>
+                                <p class="main-content__card-text">Incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud ulla
+                                    laboris nisialiquip ex loea Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor incididunt labore dolore magna aliqua. 
+                                    
+                                    </p>
+                                <a class="main-content__card-link center" href="blog-grid.html">read more</a>
+                            </div>
+                        </div>
+                        <div class="main-content__card">
+                            <div class="main-content__card-image">
+                                <img class="main-content__card-img" src="img/blog-aside/03.png" alt="image">
+                            </div>
+                            <div class="main-content__card-header">
+                                <p class="main-content__card-headertext"><i class="fa fa-user" aria-hidden="true"></i> Stephen Moya</p>
+                                <p class="main-content__card-headertext"><i class="far fa-calendar-alt"></i> Sep 25, 2019</p>
+                                <p class="main-content__card-headertext"><i class="fa fa-folder-open" aria-hidden="true"></i> Car Hire</p>
+                            </div>
+                            <div class="main-content__card-content">
+                                <h3 class="main-content__card-title">Enjoy family trips with happiness</h3>
+                                <p class="main-content__card-text">Incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud ulla
+                                    laboris nisialiquip ex loea Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor incididunt labore dolore magna aliqua. 
+                                    
+                                    </p>
+                                <a class="main-content__card-link center" href="blog-grid.html">read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <div class="paginations">
+            <div class="container">
+                <div class="paginations__inner">
+                  <div class="paginations__item">
+                      <div class="paginations__list justify-content-center">
+                          <a class="paginations__link button--active center" href="#">1</a>
+                          <a class="paginations__link center" href="#">2</a>
+                          <a class="paginations__link center" href="#">3</a>
+                          <a class="paginations__link center disabled">...</a>
+                          <a class="paginations__link center" href="#">6</a>
+                          <a class="paginations__link center" href="#">
+                            <i class="fas fa-angle-double-right"></i>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer-page">
+
+        <div class="container">
+            <div class="footer-page__inner">
+                <ul class="footer-page__list">
+                    <li class="footer-page__item center"><a class="footer-page__link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="footer-page__item center"><a class="footer-page__link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="footer-page__item center"><a class="footer-page__link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="footer-page__item center"><a class="footer-page__link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li class="footer-page__item center"><a class="footer-page__link" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                </ul>
+
+                <div class="footer-page__copyright-rightside">(c) 2019 urbins - All rights reserved.</div>
+
+            </div>
+        </div>
+
+    </footer>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="libs/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/datepicker.min.js"></script>
+    <script src="js/i18n/datepicker.en.js"></script>
+    <script src="libs/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
