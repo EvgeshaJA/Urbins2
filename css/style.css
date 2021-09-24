@@ -156,6 +156,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-x: hidden;
 }
 
 .main {
@@ -1471,6 +1472,7 @@ button {
 
 .footer {
   background-color: #111111;
+  z-index: -1;
 }
 
 .footer__inner {
@@ -2496,6 +2498,9 @@ button {
   }
   .proposal__content-inner {
     padding: 25px;
+  }
+  .blog-grid__content-inner .card-link {
+    margin-top: 10px;
   }
 }
 

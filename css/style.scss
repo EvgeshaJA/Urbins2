@@ -155,6 +155,7 @@ $green: #14c048;
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 .main{
     flex: 1 1 auto;
@@ -1287,6 +1288,7 @@ cursor: default;
 
 .footer{
     background-color:#111111;
+    z-index: -1;
     &__inner{
        padding-top: 130px; 
        padding-bottom: 80px;
@@ -2111,6 +2113,13 @@ cursor: default;
         }
         &__content-inner{
             padding: 25px;
+        }
+    }
+    .blog-grid{
+        &__content-inner{
+            .card-link{
+                margin-top: 10px;
+            }
         }
     }
 
